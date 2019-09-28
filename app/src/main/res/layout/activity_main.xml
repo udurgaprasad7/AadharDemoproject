@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="80dp"
+    android:columnCount="2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aadhaar No:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edttxtaadhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter aadhar number"
+        android:digits="0123456789"
+        android:maxLength="12"
+        android:inputType="textPersonName" />
+
+
+
+
+    <Button
+        android:id="@+id/button_iritech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="Iritech RD Service"
+        android:textAllCaps="false"
+       />
+
+    <Button
+        android:id="@+id/button_MFS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="Mantra RD Service"
+        android:textAllCaps="false"
+       />
+
+
+    <Button
+        android:id="@+id/button_startech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="Startech RD Service"
+        android:textAllCaps="false"
+      />
+<!--    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/showprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+
+
+</LinearLayout>
+
+
+
+
